@@ -1,0 +1,58 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Dec  2 15:21:35 2020
+| Host         : DESKTOP-3S607QA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rgb2vga_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_rgb2vga_0_0 (digilentinc.com:ip:rgb2vga:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Dec  2 15:21:35 2020
+| Host         : DESKTOP-3S607QA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ov5640_0_0 (xilinx.com:user:ov5640:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Dec  2 15:21:35 2020
+| Host         : DESKTOP-3S607QA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_dynclk_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_dynclk_0_0 (digilentinc.com:ip:axi_dynclk:1.0 (Rev. 3)) to Vivado generation flows.
+

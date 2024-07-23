@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>design_1_wrapper_hw_platform_0_Traces</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Traces/Run_Dec-02_16-03/PS_Trace_Dec-02_16-03/PS_Trace_Dec-02_16-03_</name>
+			<type>1</type>
+			<location>D:/backup_files/edge_zynq_codes/EDGE_ZYNQ_7020_CODES/PS_EXAMPLES/OV5640_VGA1/OV5640_VGA1.sdk/design_1_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

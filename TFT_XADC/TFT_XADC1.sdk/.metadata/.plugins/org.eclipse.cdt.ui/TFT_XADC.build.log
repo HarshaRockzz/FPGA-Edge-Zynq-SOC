@@ -1,0 +1,80 @@
+11:04:34 **** Auto Build of configuration Debug for project TFT_XADC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Delay.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Delay.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Delay.d" -MT"src/Delay.o" -o "src/Delay.o" "../src/Delay.c"
+'Finished building: ../src/Delay.c'
+' '
+'Building file: ../src/LCD_Driver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LCD_Driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LCD_Driver.d" -MT"src/LCD_Driver.o" -o "src/LCD_Driver.o" "../src/LCD_Driver.c"
+'Finished building: ../src/LCD_Driver.c'
+' '
+'Building file: ../src/LCD_GUI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LCD_GUI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LCD_GUI.d" -MT"src/LCD_GUI.o" -o "src/LCD_GUI.o" "../src/LCD_GUI.c"
+'Finished building: ../src/LCD_GUI.c'
+' '
+'Building file: ../src/SPI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SPI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/SPI.d" -MT"src/SPI.o" -o "src/SPI.o" "../src/SPI.c"
+'Finished building: ../src/SPI.c'
+' '
+'Building file: ../src/font12.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/font12.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/font12.d" -MT"src/font12.o" -o "src/font12.o" "../src/font12.c"
+'Finished building: ../src/font12.c'
+' '
+'Building file: ../src/font16.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/font16.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/font16.d" -MT"src/font16.o" -o "src/font16.o" "../src/font16.c"
+'Finished building: ../src/font16.c'
+' '
+'Building file: ../src/font20.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/font20.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/font20.d" -MT"src/font20.o" -o "src/font20.o" "../src/font20.c"
+'Finished building: ../src/font20.c'
+' '
+'Building file: ../src/font24.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/font24.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/font24.d" -MT"src/font24.o" -o "src/font24.o" "../src/font24.c"
+'Finished building: ../src/font24.c'
+' '
+'Building file: ../src/font8.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/font8.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/font8.d" -MT"src/font8.o" -o "src/font8.o" "../src/font8.c"
+'Finished building: ../src/font8.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:100:6: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+      while((XSysMon_GetStatus(SysMonInstPtr)& XSM_SR_EOS_MASK) != XSM_SR_EOS_MASK);
+      ^~~~~
+../src/main.c:102:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     ExtVolRawData = XSysMon_GetAdcData(SysMonInstPtr, XSM_CH_AUX_MIN+2);
+     ^~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TFT_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFT_XADC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TFT_XADC_bsp/ps7_cortexa9_0/lib -o "TFT_XADC.elf"  ./src/Delay.o ./src/LCD_Driver.o ./src/LCD_GUI.o ./src/SPI.o ./src/font12.o ./src/font16.o ./src/font20.o ./src/font24.o ./src/font8.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFT_XADC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size TFT_XADC.elf  |tee "TFT_XADC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 110988	   2688	  23472	 137148	  217bc	TFT_XADC.elf
+'Finished building: TFT_XADC.elf.size'
+' '
+
+11:04:42 Build Finished (took 8s.44ms)
+

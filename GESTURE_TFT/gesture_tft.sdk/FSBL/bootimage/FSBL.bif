@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\backup_files\edge_zynq_codes\EDGE_ZYNQ_7020_CODES\PS_EXAMPLES\GESTURE_TFT\gesture_tft.sdk\FSBL\Debug\FSBL.elf
+	D:\backup_files\edge_zynq_codes\EDGE_ZYNQ_7020_CODES\PS_EXAMPLES\GESTURE_TFT\gesture_tft.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	D:\backup_files\edge_zynq_codes\EDGE_ZYNQ_7020_CODES\PS_EXAMPLES\GESTURE_TFT\gesture_tft.sdk\Gesture_tft\Debug\Gesture_tft.elf
+}
